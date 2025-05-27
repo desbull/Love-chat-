@@ -1,1 +1,7 @@
-// Placeholder content for main.css
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff0f5;
+  text-align: center;
+  padding-top: 100px;
+  color: #d63384;
+}
