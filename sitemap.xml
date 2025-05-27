@@ -1,1 +1,8 @@
-// Placeholder content for sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://desibull-love.netlify.app/</loc>
+    <lastmod>2025-05-27</lastmod>
+    <priority>1.00</priority>
+  </url>
+</urlset>
