@@ -1,0 +1,1 @@
+// Simulated React build JS
