@@ -1,1 +1,1 @@
-// Simulated React build JS
+// Placeholder content for main.js
