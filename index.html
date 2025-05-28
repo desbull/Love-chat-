@@ -1,14 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DesiBull Chat</title>
-</head>
-<body>
-  <div id="root"></div>
 
-  <!-- React App JS -->
-  <script type="module" src="./index.js"></script>
-</body>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DesiBull Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>DesiBull Chat Room 💬</h2>
+      <div id="messages"></div>
+      <input type="text" id="messageInput" placeholder="Type your message..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>

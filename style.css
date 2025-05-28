@@ -1,0 +1,39 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #fff0f6;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #ffe0ec;
+  border-radius: 12px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#messages {
+  height: 300px;
+  overflow-y: scroll;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 8px 12px;
+  background: #ff4081;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
