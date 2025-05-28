@@ -16,3 +16,9 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 export { db, ref, push, onValue };
+{
+  "rules": {
+    ".read": "now < 1750962600000",
+    ".write": "now < 1750962600000"
+  }
+}
